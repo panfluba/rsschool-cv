@@ -21,3 +21,31 @@ I'm 18 and I am sophomore of Belarusian State University of Informatics and Radi
 
 ---
 
+# Examples of code: 
+
+```sh 
+function add(num1, num2) {
+ 
+  num1 += '';
+  let arr1 = num1.split('').map(Number).reverse();
+  num2 += '';
+  let arr2 = num2.split('').map(Number).reverse();
+  let maxValue = Math.max(num1.length, num2.length);
+  let result = [];
+  for (let i = maxValue; i >= 0 ; i-- ){
+    
+    result.push((arr1[i] || 0) + (arr2[i] || 0));
+  }
+  return (Number(result.join('')));
+}
+```
+```sh 
+var ArrowFunc = (arr) =>  arr.map(arr => String.fromCharCode(arr) ).join('');
+```
+ 
+# Languages: 
+- English - B1-B2
+- Russian - Native
+- Belarusian - Native
+- Ukrainian - Native
+- Polish - A2-B1
