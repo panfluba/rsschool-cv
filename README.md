@@ -1,1 +1,1 @@
- https://panfluba.github.io/rsschool-cv/cv
+ https://panfluba.github.io/rsschool-cv/
